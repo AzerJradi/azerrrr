@@ -1,3 +1,6 @@
+body{
+	background-color: bisque ;
+} /*  for the site's body  */
 h1 {
 	color: black;
 	font-family: Cursive;
@@ -5,66 +8,42 @@ h1 {
 	background-color:tan;
 	font-size: 5em;
 	text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 20px white;
-	  }
-h9{
-	font-size: 2.4em;
-}
+	  }   /*  h1 is for the main title  */
 h2 {
 	color: rgba(165, 42, 42, 0.858);
 	font-family: roboto;
 	text-align: center;
 	font-size: 100px;
-}
-body{
-	background-color: bisque ;
-}
-footer{
-	text-align: center;
-	font-size: 2.4em;
-}
-h3{
-	text-align: center;
-}
+}   /* h2 is for the small titles   */
 h4{
-	font-size: 1.9em;
-}
-.cadre {
-    border: 2px solid #000;
-    padding: 10px;
-    background-color: tan;
-}
+	font-size: 40px;
+} /*  h4 is for the long paragraphes  */
 h5{
 	color: black;
 	font-family: roboto;
-    font-size: 1.9em;
+    font-size: 2.9em;
 	text-align: center;
-}
+}  /*  h5 is for the about paragraphe */
 h6{
-	font-size: 1.7em; ;
 	color: black;
-}
+	font-family: roboto;
+    font-size: 1.4em;;
+	text-align: center;
+} /*  h6 is for the table(one piece arc)   */
+
 div{
 	padding-left: 50px;
-}
-h7{
-	font-size: 25px;
-}
+}  /*  to make space between the big elements  */
 box{
 	display: block;
 }
 td {
 	text-align: center;
-  }
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-  	}
- tr{
+  } /*  to make between the elements of the table(one piece arc 's table)  */
+
+  tr{
 	list-style: none;
-	} 
+	} /*  to remove the points of the top bar  */
 li  {
 	float: left;
   	}
@@ -73,11 +52,12 @@ li  {
 	color: peru;
 	text-align: center;
 	padding: 14px 16px;
-  }
+	font-size: 40px
+  }  /*  for the top bar  */
   li a:hover {
 	background-color:rgba(255, 166, 0, 0.688);
 	transform: translate(5px, 10px);
-  }
+  }  /*  style for the top bar buttons  */
   button {
 	background-color: rgb(214, 145, 16); 
 	color: white;
@@ -88,18 +68,24 @@ li  {
 	border-radius:16px;
 	cursor: pointer;
 	box-shadow: 0 9px rgb(214, 145, 16);
-  }
+  }   /*  style for the contacts button  */
   button:hover {
 	background-color: wheat; 
 	color: black;
 	box-shadow: 0 9px wheat;
-  }
+  } /*  style for the contacts button when pressed (it changes when the cursor is on it)  */
   img:hover {
 	transform: scaleX(-1);
   }
   a {
 	text-decoration: none;
-  }  
-h9{
-	font-size: 40px;
+  }  /*  to remove style from top bar's titles (like underline)  */
+.cadre {
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: tan;
 }
+footer{
+	text-align: center;
+	font-size: 2.4em;
+}  /*  its for the footer  */
